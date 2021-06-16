@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title id="ok">0 $</title>
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <div id="counter"></div>
+    <p id="hej" style="text-align: center; font-size: 20px;">0 $</p>
+    <p id="moneyPerSeconds" style="text-align: center; font-size: 15px;">0 $ / s</p>
+    <center><img src="C:\Users\Ulrik\Desktop\USDB1.jpg" width="400" height="160" onclick="clickMig()"></center>
+
+    <div class="separatorLeft"></div>
+    <div class="separatorRight"></div>
+
+    <button onclick="resetGame()">Reset</button>
+
+    <div id="sectionRight">
+      <button class="button">
+       <div id="hintbox"></div>
+       <span class="button__text">
+          <span onclick="buyCursor()" id="cursorprices">Buy cursor: 20$ (0)</span>
+       </span>
+       <svg class="button__svg" role="presentational" viewBox="0 0 600 600"></svg>
+     </button>
+     <br>
+     <button class="button">
+      <div id="hintbox"></div>
+      <span class="button__text">
+         <span onclick="buyGrandma()" id="grandmaprices">Buy grandma: 100$ (0)</span>
+      </span>
+      <svg class="button__svg" role="presentational" viewBox="0 0 600 600"></svg>
+    </button>
+    </div>
+  </body>
+ </html>
